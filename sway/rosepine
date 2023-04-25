@@ -1,0 +1,35 @@
+# Colors
+set $rosewater #ea9a97
+set $flamingo  #eb6f92
+set $pink      #eb6f92
+set $mauve     #c4a7e7
+set $red       #ea9a97
+set $maroon    #3e8fb0
+set $peach     #f6c177
+set $green     #9ccfd8
+set $teal      #94e2d5
+set $sky       #9ccfd8
+set $sapphire  #c4a7e7
+set $blue      #3e8fb0
+set $lavender  #c4a7e7
+set $text      #e0def4
+set $subtext1  #908caa
+set $subtext0  #6e6a86
+set $overlay2  #393552
+set $overlay1  #393552
+set $overlay0  #393552
+set $surface2  #2a273f
+set $surface1  #2a273f
+set $surface0  #2a273f
+set $base      #232136
+set $mantle    #44415a
+set $crust     #2a283e
+
+
+# Rose pine
+client.focused             $lavender        $base      $text     $lavender        $lavender
+client.focused_inactive    $base        $base      $text     $base        $base
+client.unfocused           $base        $base      $text     $base        $base
+client.urgent              $peach       $base      $peach    $peach       $peach
+client.placeholder         $overlay0    $base      $text     $overlay0    $overlay0
+client.background          $base
